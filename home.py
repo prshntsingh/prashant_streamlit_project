@@ -48,7 +48,7 @@ def home():
     """, unsafe_allow_html=True)
 
     # Subtitle
-    st.write(f"""<div class="subtitle" style="text-align: center;">Software Engineer</div>""", unsafe_allow_html=True)
+    st.write(f"""<div class="subtitle" style="text-align: center;">Software Engineer (Open to work)</div>""", unsafe_allow_html=True)
 
     # Social Icons
     social_icons_data = {
@@ -76,19 +76,23 @@ def home():
     # About me section
     st.subheader("About Me")
     st.write("""
+    - 🎓 I am a **Bachelor of Engineering** graduate from [Birla Institute of Technology, Mesra](https://www.bitmesra.ac.in/) and have 4 years of experience in Software Engineering.
+    
     - 🧑‍💻 I am a **Backend and Platform Engineer** @ [Airbase](https://www.airbase.com/) working on Cashback and Pricing contracts. 
 
-    - 🛩️ prev: Software Engineer @ [Paysafe](https://www.paysafe.com/en/)
+    - 🛩️ Prev: Software Engineer @ [Paysafe](https://www.paysafe.com/en/)
 
-    - ❤️ I am passionate about ** Web development, Artificial Intelligence, Cloud computing, Data, Software Engineering, DSA, Optimization, Automation**, and more!
+    - ❤️ I am passionate about **Web development, Artificial Intelligence, Startups, Cloud computing, Data, Software Engineering, DSA, Optimization, Automation**, and more!
 
-    - 🤖 I enojoy developing projects and photography and participating at platforms like [Leetcode](https://leetcode.com/prshntsingh2010/) 📈
+    - 🤖 I enojoy developing projects, photography and participating at platforms like [Leetcode](https://leetcode.com/prshntsingh2010/) 📈
 
     - 🏂 Also practicing sports such as cricket, football and badminton 🧗
-
-    - 📫 How to reach me: prshntsingh2010@gmail.com
-
+    
     - 🏠 Bengaluru, India
+
+    - 📫 Contact me: \n
+       - 📩: prshntsingh2010@gmail.com
+       - 📞: +91-8294246578
     """)
 
     st.write("##")
@@ -103,9 +107,9 @@ def home():
 
     st.write("##")
 
-    st.write(
-        f"""<div class="subtitle" style="text-align: center;">⬅️ Check out my Projects in the navigation menu! (Coming soon...)</div>""",
-        unsafe_allow_html=True)
+    # st.write(
+    #     f"""<div class="subtitle" style="text-align: center;">⬅️ Check out my Projects in the navigation menu! (Coming soon...)</div>""",
+    #     unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
