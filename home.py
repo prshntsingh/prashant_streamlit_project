@@ -84,7 +84,7 @@ def home():
 
     - ❤️ I am passionate about **Web development, Artificial Intelligence, Startups, Cloud computing, Data, Software Engineering, DSA, Optimization, Automation**, and more!
 
-    - 🤖 I enojoy developing projects, photography and participating at platforms like [Leetcode](https://leetcode.com/prshntsingh2010/) 📈
+    - 🤖 I enojy developing projects, photography and participating at platforms like [Leetcode](https://leetcode.com/prshntsingh2010/) 📈
 
     - 🏂 Also practicing sports such as cricket, football and badminton 🧗
     
