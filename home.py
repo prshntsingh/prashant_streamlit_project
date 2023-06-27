@@ -14,7 +14,7 @@ def home():
         st.write(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
     # Profile image file
-    with open("assets/profile_prashant.jpg", "rb") as img_file:
+    with open("assets/prashant_v2.jpeg", "rb") as img_file:
         img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
 
     # PDF Resume file
