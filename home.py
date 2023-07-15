@@ -18,7 +18,7 @@ def home():
         img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
 
     # PDF Resume file
-    with open("assets/prashant_resume.pdf", "rb") as pdf_file:
+    with open("assets/prashant_resume_2023.pdf", "rb") as pdf_file:
         pdf_bytes = pdf_file.read()
 
     # Top title
@@ -101,8 +101,7 @@ def home():
     st.download_button(
         label="📄 Download my CV",
         data=pdf_bytes,
-        # file_name="Prashant_Resume.pdf",
-        file_name="prashant_resume_2023.pdf",
+        file_name="Prashant_Resume.pdf",
         mime="application/pdf",
     )
 
